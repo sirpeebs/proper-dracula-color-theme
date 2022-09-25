@@ -1,0 +1,36 @@
+{
+  "name": "proper-dracula",
+  "displayName": "Proper Dracula",
+  "description": "A high quality VSCode theme built on a proper evolution of the popular Dracula colorway.",
+  "version": "0.0.1",
+  "publisher": "properup",
+  "engines": {
+    "vscode": "^1.71.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "icon":"icon.png",
+  "repository": {
+		"type": "git",
+		"url": "https://github.com/sirpeebs/proper-dracula.git"
+	},
+  "keywords": [
+    "proper",
+    "dracula", 
+    "theme", 
+    "dark", 
+    "color-theme",
+    "colorway",
+    "color-scheme"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Proper Dracula",
+        "uiTheme": "vs-dark",
+        "path": "./themes/proper-dracula-color-theme.json"
+      }
+    ]
+  }
+}
